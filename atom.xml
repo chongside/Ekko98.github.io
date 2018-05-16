@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://ekko98.github.io/"/>
   <updated>2018-05-15T05:19:53.135Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://ekko98.github.io/</id>
   
   <author>
     <name>Ekko</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hello,hexo</title>
-    <link href="http://yoursite.com/2018/05/15/hello-hexo/"/>
-    <id>http://yoursite.com/2018/05/15/hello-hexo/</id>
+    <link href="https://ekko98.github.io/2018/05/15/hello-hexo/"/>
+    <id>https://ekko98.github.io/2018/05/15/hello-hexo/</id>
     <published>2018-05-15T05:19:53.000Z</published>
     <updated>2018-05-15T05:19:53.135Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/05/15/hello-world/"/>
-    <id>http://yoursite.com/2018/05/15/hello-world/</id>
+    <link href="https://ekko98.github.io/2018/05/15/hello-world/"/>
+    <id>https://ekko98.github.io/2018/05/15/hello-world/</id>
     <published>2018-05-15T04:23:00.244Z</published>
     <updated>2018-05-15T04:23:00.244Z</updated>
     
