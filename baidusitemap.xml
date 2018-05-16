@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>https://ekko98.github.io/2018/05/15/hello-hexo/</loc>
-    <lastmod>2018-05-15T05:19:53.135Z</lastmod>
+    <loc>https://ekko98.github.io/2018/05/16/%E5%9F%BA%E4%BA%8EQT%E7%9A%84git%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-05-16T09:19:52.116Z</lastmod>
     <data>
         <display>
-        <title>hello,hexo</title>
-        <pubTime>2018-05-15T05:19:53.000Z</pubTime>
+        <title>基于QT的git配置</title>
+        <pubTime>2018-05-16T09:19:50.000Z</pubTime>
         
          
            
@@ -19,15 +19,20 @@
 
     
   <url>
-    <loc>https://ekko98.github.io/2018/05/15/hello-world/</loc>
-    <lastmod>2018-05-15T04:23:00.244Z</lastmod>
+    <loc>https://ekko98.github.io/2018/05/15/hello-hexo/</loc>
+    <lastmod>2018-05-16T09:17:51.173Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2018-05-15T04:23:00.244Z</pubTime>
+        <title>写在开篇</title>
+        <pubTime>2018-05-15T05:19:00.000Z</pubTime>
         
+        <tag>hexo</tag>
+         
          
            
+             
+              <breadCrumb title="教程" url="https://ekko98.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+          
         </display>
     </data>
     </url>

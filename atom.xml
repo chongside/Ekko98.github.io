@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ekko98.github.io/"/>
-  <updated>2018-05-15T05:19:53.135Z</updated>
+  <updated>2018-05-16T09:19:52.116Z</updated>
   <id>https://ekko98.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello,hexo</title>
-    <link href="https://ekko98.github.io/2018/05/15/hello-hexo/"/>
-    <id>https://ekko98.github.io/2018/05/15/hello-hexo/</id>
-    <published>2018-05-15T05:19:53.000Z</published>
-    <updated>2018-05-15T05:19:53.135Z</updated>
+    <title>基于QT的git配置</title>
+    <link href="https://ekko98.github.io/2018/05/16/%E5%9F%BA%E4%BA%8EQT%E7%9A%84git%E9%85%8D%E7%BD%AE/"/>
+    <id>https://ekko98.github.io/2018/05/16/基于QT的git配置/</id>
+    <published>2018-05-16T09:19:50.000Z</published>
+    <updated>2018-05-16T09:19:52.116Z</updated>
     
     <summary type="html">
     
@@ -31,21 +31,28 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://ekko98.github.io/2018/05/15/hello-world/"/>
-    <id>https://ekko98.github.io/2018/05/15/hello-world/</id>
-    <published>2018-05-15T04:23:00.244Z</published>
-    <updated>2018-05-15T04:23:00.244Z</updated>
+    <title>写在开篇</title>
+    <link href="https://ekko98.github.io/2018/05/15/hello-hexo/"/>
+    <id>https://ekko98.github.io/2018/05/15/hello-hexo/</id>
+    <published>2018-05-15T05:19:00.000Z</published>
+    <updated>2018-05-16T09:17:51.173Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;hr&gt;
+&lt;p&gt;今天正式完成了，Hexo博客的搭建以及美化的基本工作。做一下基本的总结（过程中的种种&lt;strong&gt;&lt;code&gt;坑&lt;/code&gt;&lt;/strong&gt;）  &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;首先，基本的hexo的安装帖子网上很多，可是关于细节有的地方却不尽详细，我先说我的情况
       
     
     </summary>
     
+      <category term="教程" scheme="https://ekko98.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="hexo" scheme="https://ekko98.github.io/tags/hexo/"/>
     
   </entry>
   

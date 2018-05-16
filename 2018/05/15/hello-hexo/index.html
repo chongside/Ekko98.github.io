@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
     <title>post | Ekko-Ali</title>
-    <meta name="description" content="第一次尝试，慢慢改进">
-<meta name="keywords" content="blog,stkevintan,IT,Web Front End,Kevin Tan,kevinsfork">
+    <meta name="description" content="今天正式完成了，Hexo博客的搭建以及美化的基本工作。做一下基本的总结（过程中的种种坑）    首先，基本的hexo的安装帖子网上很多，可是关于细节有的地方却不尽详细，我先说我的情况。操作系统：deepin15.5 按照教程一步步执行    1.安装git   1$sudo apt-get install git 查看版本 1$ git version  2.安装node.js(安装node.j">
+<meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hello,hexo">
+<meta property="og:title" content="写在开篇">
 <meta property="og:url" content="https://ekko98.github.io/2018/05/15/hello-hexo/index.html">
 <meta property="og:site_name" content="Ekko&#39;s Blog">
-<meta property="og:description" content="第一次尝试，慢慢改进">
+<meta property="og:description" content="今天正式完成了，Hexo博客的搭建以及美化的基本工作。做一下基本的总结（过程中的种种坑）    首先，基本的hexo的安装帖子网上很多，可是关于细节有的地方却不尽详细，我先说我的情况。操作系统：deepin15.5 按照教程一步步执行    1.安装git   1$sudo apt-get install git 查看版本 1$ git version  2.安装node.js(安装node.j">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-05-15T05:19:53.135Z">
+<meta property="og:image" content="https://wx2.sinaimg.cn/mw1024/4deda15fly1fpv45czm65j21jk2bce81.jpg">
+<meta property="og:updated_time" content="2018-05-16T09:17:51.173Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hello,hexo">
-<meta name="twitter:description" content="第一次尝试，慢慢改进">
+<meta name="twitter:title" content="写在开篇">
+<meta name="twitter:description" content="今天正式完成了，Hexo博客的搭建以及美化的基本工作。做一下基本的总结（过程中的种种坑）    首先，基本的hexo的安装帖子网上很多，可是关于细节有的地方却不尽详细，我先说我的情况。操作系统：deepin15.5 按照教程一步步执行    1.安装git   1$sudo apt-get install git 查看版本 1$ git version  2.安装node.js(安装node.j">
+<meta name="twitter:image" content="https://wx2.sinaimg.cn/mw1024/4deda15fly1fpv45czm65j21jk2bce81.jpg">
     
         <link rel="alternate" href="true" title="Ekko&#39;s Blog" type="application/atom+xml">
     
@@ -83,33 +85,75 @@
     <div id="main" class="clearfix">
         <section id="main-left" class="left">
             <article id="post" background="red">
-    <h1>hello,hexo</h1>
+    <h1>写在开篇</h1>
     <p>
         
             <span class="visitors">visitors
-                <span id="/2018/05/15/hello-hexo/" class="leancloud_visitors" data-flag-title="hello,hexo">
+                <span id="/2018/05/15/hello-hexo/" class="leancloud_visitors" data-flag-title="写在开篇">
                     <span class="leancloud-visitors-count">0</span>
                 </span>
             </span>&nbsp;&nbsp;•&nbsp;&nbsp;
         
         
+            <span class="tag">
+                  <a class="article-category-link" href="/categories/教程/">教程</a>
+            </span>&nbsp;&nbsp;•&nbsp;&nbsp;
+        
         <span class="date">2018.05.15</span>
     </p>
     <div id="page-post-content">
-        
+        <hr>
+<p>今天正式完成了，Hexo博客的搭建以及美化的基本工作。做一下基本的总结（过程中的种种<strong><code>坑</code></strong>）  </p>
+<hr>
+<p>首先，基本的hexo的安装帖子网上很多，可是关于细节有的地方却不尽详细，我先说我的情况。<br>操作系统：<code>deepin15.5</code> 按照<strong><a href="https://blog.csdn.net/dudefu011/article/details/78124146" target="_blank" rel="noopener">教程</a></strong>一步步执行  </p>
+<ol>
+<li><p>1.安装git  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$sudo apt-get install git</span><br></pre></td></tr></table></figure>
+<p>查看版本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git version</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>2.安装node.js(安装node.js时，官网有两个版本，一个是长期维护的8一个是10，要注意10是附带npm的而8没有写，这直接影响后边npm命令的安装情况，于是发现这个问题后重新安装了10，费了很多周折）<br>a.很多人都说了可以用sudo apt直接装但是版本不够新，都不推荐，直接用另一方法即可。<br>b.首先<strong><a href="http://nodejs.org/zh-cn/" target="_blank" rel="noopener">官网下载</a></strong>最新版(附带npm)，然后解压。设置软链接将node,npm命令设置全局命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo ln -s /home/dudefu/Documents/node-v8.6.0-linux-x64/bin/node /usr/local/bin/node</span><br><span class="line">$ sudo ln -s /home/dudefu/Documents/node-v8.6.0-linux-x64/bin/npm /usr/local/bin/npm</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>查看版本验证：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></p>
+<ol start="3">
+<li>3.安装hexo<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>hexo-cli 安装路径 /home/dudefu/Documents/node-v8.6.0-linux-x64/lib/node_modules/hexo-cli，此时输入命令hexo会提示“未找到命令”,要将hexo-cli/bin/文件夹下的hexo命令设置为全局：<br></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo ln -s /home/dudefu/Documents/node-v8.6.0-linux-x64/lib/node_modules/hexo-cli/bin/</span><br><span class="line">$ hexo /usr/local/bin/hexo</span><br></pre></td></tr></table></figure>
+<p>再次输入即可验证。  </p>
+<ol start="4">
+<li><p>4.创建hexo<br><br><br>按照如下命令进行创建并启动服务。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir hexo</span><br><span class="line">$ cd hexo</span><br><span class="line">$ hexo init .</span><br><span class="line">$ npm install </span><br><span class="line">$ hexo server --open</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>5.配置hexo<br>想要换一个漂亮主题，可以去官网下载，但我找到的几个都因为配置参数不合适而应用失败。网上主题很多，找到一款自己喜欢的进行配置即可，不过其实发现，博客的配置好用为主，能展示应有的功能，方便简洁就好。       </p>
+</li>
+</ol>
+<p><br><br><br></p>
+<p>第一篇博客，附上我韵的美照～<br><img src="https://wx2.sinaimg.cn/mw1024/4deda15fly1fpv45czm65j21jk2bce81.jpg" alt=""></p>
+
     </div>
+    
+        <div id="page-post-tags">
+              <a class="article-tag-link" href="/tags/hexo/">hexo</a>
+        </div>
     
     
     
 <nav id="article-nav" class="clearfix">
   
-  
-    <a href="/2018/05/15/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
+    <a href="/2018/05/16/基于QT的git配置/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">
         
+          
+          基于QT的git配置
         
-      <div class="article-nav-title"></div>
+      </div>
     </a>
+  
   
 </nav>
 
@@ -129,7 +173,7 @@
     </div>
     <p class="my-social">
         
-            <a href="https://github.com/Ekko98" class="my-social-me1">github</a>
+            <a href="https://github.com/Ekko98" class="my-social-me4">github</a>
         
             <a href="http://weibo.com/ekko98" class="my-social-me5">weibo</a>
         
@@ -142,11 +186,11 @@
             <span>posts</span>
         </a>
         <a href="/categories">
-            <strong>0</strong><br>
+            <strong>1</strong><br>
             <span>categories</span>
         </a>
         <a href="/tags">
-            <strong>0</strong><br>
+            <strong>1</strong><br>
             <span>tags</span>
         </a>
     </div>
