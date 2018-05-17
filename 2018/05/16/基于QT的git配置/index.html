@@ -48,7 +48,29 @@
         })();
     </script>
     
+        <script type="text/javascript" id="hexo.configuration">
+            var CONFIG = {
+                root: '/',
+                algolia: {
+                    applicationID: '148WKKLBJ2',
+                    apiKey: '1b27867f0ba7ad358543a84d6d30bcb3',
+                    indexName: 'test',
+                    hits: {
+                        per_page: ''
+                    },
+                    labels: {
+                        input_placeholder: '请输入要搜索的字段...',
+                        hits_empty: '没有查找到和 「${query}」相关的内容',
+                        hits_stats: '总共${hits} 条相关条目，使用了 ${time} 毫秒'
+                    }
+                }
+            };
+        </script>
+    
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    
+        <script src="http://opu30aljn.bkt.clouddn.com/instantsearch.js"></script>
+        <script src="/js/thirdparty/algolia.js"></script>
     
     <script src="/js/script.js"></script>
 </head>
@@ -70,6 +92,8 @@
             <li><a href="/archives">Archives</a></li>
             
             <li><a href="/tags">tags</a></li>
+            
+            <li><a href="/about">About</a></li>
             
         </ul>
         <label for="header-right-nav"><i></i></label>
@@ -116,6 +140,22 @@
 </article>
 
 
+
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<script>
+    var cloudTieConfig = {
+        url: document.location.href,
+        sourceId: '',
+        productKey: '6f0492a87f74476e9df370e5e7ce2270',
+        target: 'cloud-tie-wrapper'
+    };
+    var yunManualLoad = true;
+    Tie.loader('aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s', true);
+</script>
+
+
+
         </section>
         <section id="main-right" class="right">
             <div class="my">
@@ -131,9 +171,9 @@
         
             <a href="https://github.com/Ekko98" class="my-social-me4">github</a>
         
-            <a href="http://weibo.com/ekko98" class="my-social-me5">weibo</a>
+            <a href="http://weibo.com/ekko98" class="my-social-me3">weibo</a>
         
-            <a href="/" class="my-social-me1">知乎</a>
+            <a href="/" class="my-social-me2">知乎</a>
         
     </p>
     <div class="my-post">
@@ -195,6 +235,27 @@
 </div>
 <label for="left-information"></label>
 
+
+    <div class="site-search">
+        <div class="algolia-popup popup">
+            <div class="algolia-search">
+                <div class="algolia-search-input-icon">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="algolia-search-input" id="algolia-search-input"></div>
+            </div>
+
+            <div class="algolia-results">
+                <div id="algolia-stats"></div>
+                <div id="algolia-hits"></div>
+                <div id="algolia-pagination" class="algolia-pagination"></div>
+            </div>
+
+            <span class="popup-btn-close">
+          <i class="fa fa-times-circle"></i>
+        </span>
+        </div>
+    </div>
 
 
 <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
